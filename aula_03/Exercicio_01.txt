@@ -1,0 +1,49 @@
+1. Usando o mesmo arquivo gerado nas duas aulas anteriores (CV), realizar o
+seguinte (tomando como base os textos existentes ou, se necessário,
+produzindo novos textos):
+a. Inserir vários <strong> dentro dos textos mais importantes do CV.
+■ O que acontece quando adicionamos essa TAG a um cabeçalho? A aparência muda?
+R. Não muda.
+
+b. Inserir vários <em> nos textos que queremos destacar no CV.
+■ O que acontece se adicionarmos essa TAG aos cabeçalhos?
+R. Se aplicar o <em> "dentro" da tag do cabeçalho (h3) o texto fica itálico,
+se "fora" do cabeçalho, não.
+
+c. Inserir pelo menos 2 <mark> nos arquivos.
+d. Inserir uma abreviatura <abbr> em alguma parte dos arquivos HTML.
+Relembrar o uso do atributo title.
+e. Só por diversão. Usando CSS, mudar como quiser a aparência dos
+<strong>, <em> e <mark> para que eles fiquem diferentes.
+
+2. Agora, vamos trabalhar com formulários. Para isso:
+a. Criar um novo arquivo HTML chamado contato.html. Dentro dele,
+inserir um cabeçalho de primeiro nível que diga: "Formulário de
+Contato". Esse arquivo deve estar perfeitamente vinculado aos
+outros dois que já foram criados (index.html / hobbies.html).
+b. Inserir um formulário que contenha os seguintes campos, com os
+respectivos rótulos:
+■ Nome e sobrenome
+■ E-mail
+■ Assunto da mensagem (combobox suspenso com opções à
+sua escolha)
+■ Gênero (radio button para as opções “feminino”, “masculino” e
+“prefiro não responder”)
+■ Passatempos (checkboxes; no mínimo 5, à sua escolha)
+■ Comentários
+■ Botões enviar / excluir
+Os campos nome e sobrenome, e-mail e comentários deverão ser
+obrigatórios.
+
+3. De volta ao CSS. Tomando como base a folha de estilo criada nas aulas
+anteriores, vamos:
+a. Criar uma regra que permita mudar o visual (pode ser o fundo) dos
+campos do formulário apenas quando eles estiverem em foco.
+b. Criar uma regra que permita redimensionar o campo comentários
+somente na vertical.
+c. Criar uma regra que permita alterar o visual (cor, espessura da fonte
+e/ou decoração) dos links apenas quando o usuário passar o
+mouse sobre eles (“rollover”).
+d. Criar uma regra que permita alterar o visual das imagens do arquivo
+hobbies.html apenas quando o usuário passar o mouse sobre elas.
+Você pode usar esta declaração para testar: border-radius: 20px.

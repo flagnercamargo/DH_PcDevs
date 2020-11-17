@@ -1,0 +1,42 @@
+3. Vamos criar uma folha de estilo seguindo estas instruções:
+a. Dentro do mesmo diretório em que salvamos o nosso arquivo HTML, criar
+um subdiretório (pasta) chamado “css”.
+b. Gerar um novo arquivo e salvá-lo dentro deste subdiretório (css) com o
+nome “estilos.css”.
+■ Nesse arquivo, escrever esta regra de CSS:
+
+body {
+background-color: pink;
+}
+
+c. Vincular o documento HTML à folha de estilo CSS usando a tag <&lt;>link>.
+d. Visualizar o resultado desses passos no navegador. Se tudo estiver certo,
+o plano de fundo da página deverá aparecer em cor-de-rosa.
+■ Funcionou?
+R. Sim.
+
+■ Se não, a folha de estilo está vinculada corretamente? O caminho
+do atributo href da tag <link> direciona ao endereço certo?
+
+4. Agora que a nossa folha de estilo está vinculada corretamente, usar seletores de
+tags para fazer o seguinte:
+a. Trocar toda a tipografia do documento HTML por sans-serif e excluir a
+cor de fundo que aplicamos ao <body>.
+
+■ É possível usar uma fonte que NÃO seja do sistema?
+R. Sem fazer a referência, não.
+■ Como isso poderia ser feito? Poderíamos usar o Google Fonts?
+https://fonts.google.com/
+R. Sim, fazendo a referência correta.
+
+b. Trocar a cor dos cabeçalhos por qualquer outra à sua escolha.
+Podemos tomar como referência as cores deste site: https://www.materialpalette.com/colors.
+■ Para usar uma cor, clique nela e copie o código indicado pelo símbolo # (incluindo o #).
+Como se chama este formato de código de cor?
+R. código hexadecimal.
+
+c. Centralizar o título principal e aplicar um estilo em itálico.
+d. Remover o negrito dos outros cabeçalhos usados e decorá-los com um
+sublinhado.
+e. Alinhar todos os parágrafos de maneira “justificada”, com um tamanho de
+fonte de 14px e um espaçamento entre linhas 9px maior que o tamanho da fonte.

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+
+    <form action="endpoint" method="POST">
+        <label for="nome">Nome *:</label>
+        <input type="text" name="Nome" id="nome" placeholder="Nome" required>
+        <input type="text" name="Sobrenome" id="sobrenome" placeholder="Sobrenome" required><br>
+        <label for="email">E-mail *:</label>
+        <input type="text" name="E-mail" id="email" placeholder="seuemail@exemplo.com" required>
+        <label for="password">Password:</label>
+        <input type="password" name="senha" id="senha" placeholder="*****" >
+        <br>
+        <br>
+        <label for="assunto">Assunto:</label>
+        <select name="Assunto" id="assunto">
+            <option value="Escolha">Selecione...</option>
+            <optgroup label="Informações">
+                <option value="InfFinanc">Financeiras</option>
+                <option value="InfProdutos">Produtos</option>
+                <option value="InfAtend">Atendimento</option>
+            </optgroup>
+            <optgroup label="Reclamações">
+                <option value="RecFinanc">Financeiras</option>
+                <option value="RecProdutos">Produtos</option>
+                <option value="RecAtend">Atendimento</option>
+            </optgroup>
+            <optgroup label="Elogios">
+                <option value="ElgProdutos">Produtos</option>
+                <option value="ElgAtend">Atendimento</option>
+            </optgroup>            
+            <option value="Outros">Outros</option>
+        </select>
+        <br>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Masculino</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Feminino</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Prefiro não responder</label><br>
+        <br>
+        <label for="hobbies">Hobbies</label><br>
+        <input type="checkbox" id="hobby1" name="bike" value="Bike">
+        <label for="hobby1">Bike</label>
+        <input type="checkbox" id="hobby2" name="caminhada" value="Caminhada">
+        <label for="hobby2">Caminhada</label>
+        <input type="checkbox" id="hobby3" name="futebol" value="Futebol">
+        <label for="hobby3">Futebol</label>
+        <input type="checkbox" id="hobby4" name="livros" value="Livros">
+        <label for="hobby4">Livros</label>
+        <input type="checkbox" id="hobby5" name="game" value="Game">
+        <label for="hobby5">Game</label><br>
+        <br>
+        <label for="comentarios">Comentários *:</label><br>
+        <textarea name="comentarios" id="comentarios" cols="50" rows="4" required></textarea><br>
+        <br>
+        <pre><label for="">Campos com * são obrigatórios.</label></pre><br>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">        
+    </form>
+<br><br>
+<a href="https://google.com" target="_blank">Google |</a>
+<a href="https://google.com" target="_blank">Google |</a>
+<a href="https://google.com" target="_blank">Google |</a>
+
+    
+</body>
+</html>

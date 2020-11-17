@@ -1,0 +1,86 @@
+body {
+    background-color: #e0e0e0;
+    font-family: Quicksand;
+    font-size: 14px;font-style: normal;font-variant: normal;font-weight: 400;
+    line-height: 23px;
+    text-align: justify;
+}
+
+h1 {
+    background-color: #9e9e9e;
+    font-family: Quicksand;
+    font-size: 24px;font-style: normal;font-variant: normal;font-weight: 700;
+    line-height: 26.4px;    
+    text-align: center;
+}
+
+h3 {
+    background-color: #9e9e9e;
+    font-family: Quicksand;
+    font-size: 14px;font-style: normal;font-variant: normal;font-weight: 700;
+    line-height: 15.4px;    
+    text-decoration: underline;
+}
+
+p {
+    font-family: Quicksand;
+    font-size: 14px;font-style: normal;font-variant: normal;font-weight: 400;
+    line-height: 23px;
+    text-align: justify;
+}
+
+blockquote {
+    font-family: Quicksand;
+    font-size: 21px;font-style: normal;font-variant: normal;font-weight: 400;
+    line-height: 30px;
+}
+
+pre {
+    font-family: Quicksand;
+    font-size: 13px;font-style: normal;font-variant: normal;font-weight: 400;
+    line-height: 18.5667px;
+}
+
+strong {
+    background-color: black;
+    font-family: Quicksand;    
+    color: white;
+}
+
+em {
+    font-family: Quicksand;
+    font-size: 13px;    
+    color: purple;
+}
+
+mark {
+    background-color: red;
+    font-family: 'Courier New';
+    color: white;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input {
+    background-color: #e0e0e0;
+}
+
+input:focus {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #9e9e9e;
+}
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+a:active {
+    color: white;
+}

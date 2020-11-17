@@ -1,0 +1,37 @@
+1. No editor de texto, abrir um novo documento e fazer o seguinte:
+
+a. Salvá-lo com o nome index.html.
+■ O que aconteceria se não salvássemos o documento com a
+extensão “.html”?
+R. ele não seria interpretado e não exibiria os resultados esperados.
+■ O nome “index” é necessário?
+R. Para páginas Web sim, ele é o nome padrão para a 1a página de um site.
+
+b. Dentro do arquivo, criar a estrutura básica de um documento HTML
+(escrever todo o código manualmente).
+c. Dar um título ao documento (que será exibido na aba do navegador)
+desta forma: .“CV - Nome Sobrenome”, substituindo “Nome Sobrenome”
+pelo seu nome e sobrenome.
+d. Dentro da tag “body”, escrever este texto aleatório: “Olá, mundo! Este é
+meu primeiro documento HTML.”. Em seguida, visualizar o arquivo no
+navegador.
+■ O que acontece? O texto é exibido corretamente?
+R. usando a tag <p> ele exibe corretamente.
+
+■ Se não, o que pode ter acontecido?
+R. talves a falta da tag.
+
+2. Depois de resolver o problema com a codificação de caracteres, fazer o seguinte
+dentro do documento atual:
+a. Criar um cabeçalho principal, como: “Currículo - Nome Sobrenome”.
+b. Usando subtítulos, parágrafos e listas (à sua escolha), criar pelo menos
+três das seguintes seções:
+■ Perfil (descrição pessoal)
+■ Dados pessoais e de contato (data de nascimento, e-mail, celular,
+redes sociais, etc.)
+■ Formação acadêmica (ensino médio, superior, educação não
+formal, etc.)
+■ Experiência profissional
+c. Nas listas usadas, alterar os marcadores (“bullets”) usando o atributo type.
+d. Criar pelo menos uma lista aninhada.
+(A informação inserida pode ser texto de preenchimento Lorem ipsum.)

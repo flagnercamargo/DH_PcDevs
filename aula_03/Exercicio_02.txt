@@ -1,0 +1,60 @@
+1. Usando os arquivos criados nas aulas anteriores (CV):
+a. Inserir tags semânticas que aninhem o conteúdo a cada um dos
+arquivos. Header, section, article e footer deverão ser
+implementados conforme for conveniente.
+b. Levar em conta que é possível atribuir classes a uma tag para que
+ela tenha propriedades visuais diferentes de outras tags do mesmo
+tipo. Ex.:
+■ <section class="dados-pessoais"> ... </section>
+■ <section class="formacao"> ... </section>
+■ Recomendação: usando CSS, aplicar um fundo de qualquer
+cor a cada tag inserido anteriormente. Dessa forma, é
+possível observar a “localização” desses containers.
+
+2. Levando em conta os containers implementados no ponto anterior (e as
+respectivas classes), fazer com que todos:
+a. Tenham largura de 960 pixels
+b. Tenham preenchimento de 30 pixels em todos os lados
+c. Tenham uma borda de linha pontilhada de 5 pixels de qualquer cor
+d. Estejam centralizados na tela, com distância de 20 pixels entre si
+(em cima e embaixo).
+
+3. Dentro do arquivo hobbies.html, gerar a seguinte estrutura:
+
+_________________________
+|                       |
+|          A            |
+|_______________________|
+|       |               |
+|       |               |
+|       |               |
+|   B   |       C       |
+|       |               |
+|       |               |
+|_______|_______________|
+|                       |
+|          D            |
+|_______________________|
+
+
+Levar em conta que:
+
+■ O container A deve conter o título principal.
+■ O container B deve conter os links que estiverem dentro do
+arquivo.
+■ O container C deve conter imagens, vídeo e áudio.
+■ O container D deve conter um rodapé, como: “Todos os
+direitos reservados”.
+■ O container C deve ter 300 pixels de largura e deve flutuar à
+esquerda.
+■ O container D deve ter 630 pixels de largura e deve flutuar à
+direita.
+■ Além disso, é necessário seguir os parâmetros estipulados
+nos pontos 2a e 2b desta folha de exercícios para todos os
+containers.
+
+4. Por último, gerar a seguinte regra:
+a. *{box-sizing: border-box;}
+b. O que acontece com os containers? Alguma coisa mudou?
+c. Se alguma coisa for “danificada”, devemos corrigi-lo levando em
+conta o modelo de caixa.

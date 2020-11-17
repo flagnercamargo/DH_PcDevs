@@ -1,0 +1,39 @@
+body {
+    background-color: #e0e0e0;
+    font-family: Quicksand;
+    font-size: 14px;font-style: normal;font-variant: normal;font-weight: 400;
+    line-height: 23px;
+    text-align: justify;
+}
+
+
+.exemplo {
+    list-style: none;;
+    color: darkslategray;
+}
+
+.item {    
+    height: 100px;
+    width: 25%;
+    display: inline-block;
+}
+
+.primeiro {
+    background-color: darkcyan;
+}
+
+.segundo {
+    background-color: cyan;
+}
+
+.terceiro {
+    background-color: lightblue;
+}
+
+#cabecalho1 {
+    background-color: orange;
+}
+
+#cabecalho2 {
+    background-color: white;
+}
