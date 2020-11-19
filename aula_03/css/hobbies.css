@@ -1,0 +1,51 @@
+body {
+    background-color: #e0e0e0;
+    font-family: Quicksand;
+    font-size: 14px;font-style: normal;font-variant: normal;
+    text-align: justify;
+}
+.bloco_AD {    
+    background-color: lightsteelblue;
+    width: 930px;
+    height: auto;
+    text-align: center;
+    padding: 30px; /*ciam|baixo lados*/
+    border: groove 5px darkblue;
+}
+.bloco_BC {
+    width: 990px;
+}
+.item {
+    display: inline-block;
+    height: 350px;
+}
+.midia {
+    display: inline-block;
+    width: 50%;
+}
+.links {
+    text-align: right;
+}
+.bloco_B {
+    background-color: lightsteelblue;
+    width: 300px;
+    float: left;
+    text-align: center;
+    font-size: 15px;    
+    padding: 10px;
+    border: groove 5px darkblue;
+}
+.bloco_C {
+    background-color: lightsteelblue;
+    width: 630px;
+    text-align: center;
+    font-size: 15px;    
+    padding: 10px;
+    border: groove 5px darkblue;
+}
+.bloco_D {
+    width: 630px;
+}
+* {
+    box-sizing: border-box;
+}

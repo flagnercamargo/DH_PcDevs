@@ -45,9 +45,9 @@ arquivo.
 ■ O container C deve conter imagens, vídeo e áudio.
 ■ O container D deve conter um rodapé, como: “Todos os
 direitos reservados”.
-■ O container C deve ter 300 pixels de largura e deve flutuar à
+■ O container B deve ter 300 pixels de largura e deve flutuar à
 esquerda.
-■ O container D deve ter 630 pixels de largura e deve flutuar à
+■ O container C deve ter 630 pixels de largura e deve flutuar à
 direita.
 ■ Além disso, é necessário seguir os parâmetros estipulados
 nos pontos 2a e 2b desta folha de exercícios para todos os
@@ -56,5 +56,7 @@ containers.
 4. Por último, gerar a seguinte regra:
 a. *{box-sizing: border-box;}
 b. O que acontece com os containers? Alguma coisa mudou?
+R. Sim eles se organizam perfeitamente na largura e altura global dos blocos.
+
 c. Se alguma coisa for “danificada”, devemos corrigi-lo levando em
 conta o modelo de caixa.
