@@ -1,1 +1,1 @@
-Este repositóri contém arquivos gerados durante o curso oferecido pela IBM em parceria com a Digital House para uma turma exclusiva de PCDs.
+Este repositório contém arquivos gerados durante o curso oferecido entre Nov/2020 e Mar/2021 pela IBM em parceria com a Digital House para uma turma exclusiva de PCDs.
