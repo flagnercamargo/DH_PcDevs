@@ -1,0 +1,43 @@
+body {
+    /* background-color: #e0e0e0; */
+    margin: 0;
+    font-family: Quicksand;
+    font-size: 14px;font-style: normal;font-variant: normal;
+    /* text-align: justify; */
+}
+.geral {
+    font-size: 2em;
+    text-align: center;
+    height: 300px;
+    display: inline-block;
+    padding: 10px;
+}
+.divA {
+    float: left;
+    font-size: 2em;
+    width: 300px;
+    background-color: green;
+}
+.divB {
+    width: 700px;
+    background-color: blue;
+}
+.divC {
+    float: right;
+    width: 200px;
+    background-color: yellow;   
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.15em;
+}
+strong {
+    font-size: 1em;
+}
+* {
+    box-sizing: border-box;
+}
+/* .box {
+    width: 25vw;
+    height: 50vh;
+} */

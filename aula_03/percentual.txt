@@ -1,0 +1,15 @@
+Exercício:
+Fazer 3 divs, uma do lado da outra
+todas - height 300px : 
+1a - verde com 300px largura
+2a - azul com 700px largura
+3a - amarela com 200px largura
+
+Levando se em conta que a tela total tem 1200px, em % qt cada div está ocupando?
+1a - 1200/300 = 25%
+2a - 1200/700 = 58.33%
+3a - 1200/200 = 16.66%
+
+Unidade de medida "em"
+por padrão, 1em equivale a 16px
+
