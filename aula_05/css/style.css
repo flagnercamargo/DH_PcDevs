@@ -1,0 +1,39 @@
+body {
+    padding: 15px;
+    background: #eee;
+}
+
+.caixa {
+    border: solid 1px #666;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.area-visivel {
+    color: #666;
+    display: none;
+}
+@media (max-width: 600px) {
+    .um {
+        background: #F9C;
+    }
+    .lt600 {
+        display: inline-block;
+    }
+}
+@media (min-width: 900px) {
+    .dois {
+        background: #F90;
+    }
+    .gt900 {
+        display: inline-block;
+    }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .tres {
+        background: blue;
+    }
+    .bt600-900 {
+        display: inline-block;
+    }
+}
