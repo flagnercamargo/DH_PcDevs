@@ -1,0 +1,21 @@
+.elemento {
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    text-align: center;
+}
+.div1{
+    background-color: blue;
+    float: right; 
+}
+.div2{
+    background-color: red;
+    float: left;
+}
+.elemento-article {
+    background-color: green;
+    overflow: hidden;
+}
+.paragrafo {
+    clear: left;
+}

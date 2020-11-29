@@ -1,0 +1,26 @@
+.container {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /*
+    align-content: stretch;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    flex-direction: row;
+    */
+}
+.item {
+ width: 200px;
+ height: 200px;
+ background-color: grey;
+ color: white;
+ font-size: 2em;
+ text-align: center;
+ border: 2px solid black;
+}
+.item1{
+    align-self: flex-end;
+}

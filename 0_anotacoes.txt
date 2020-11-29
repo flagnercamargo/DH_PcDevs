@@ -1,0 +1,24 @@
+Professores:
+Rafael Lopes
+Jessica Ferigato Mignella
+
+Indicações:
+
+Udemy
+curso de java, professor Nélio
+https://www.udemy.com/course/java-curso-completo/
+
+Link correto do Playground (diferente do usado no Nivelamento):
+https://br-playground.digitalhouse.com/br/login
+
+VSCode: para frontend
+Spring Tools: para backend
+
+* https://tutorialforlinux.com/2019/04/02/how-to-install-spring-tool-suite-on-mint-19-gnu-linux-easy-guide/
+
+Tudo sobre HTML com exemplos:
+https://www.w3schools.com/
+
+Site para melhor entendimento do comportamento do flexbox , lá tem a demonstração de todos os comportamentos faz parte do conteúdo então entrem para dar um conferida:
+https://origamid.com/projetos/flexbox-guia-completo/
+
