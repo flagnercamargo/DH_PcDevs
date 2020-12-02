@@ -22,3 +22,29 @@ https://www.w3schools.com/
 Site para melhor entendimento do comportamento do flexbox , lá tem a demonstração de todos os comportamentos faz parte do conteúdo então entrem para dar um conferida:
 https://origamid.com/projetos/flexbox-guia-completo/
 
+Entenda posicionamento com CSS:
+https://medium.com/code-prestige/entendendo-posicionamento-com-css-de-uma-vez-por-todas-4194a5b1e8b6
+
+Paleta de cores:
+https://www.materialpalette.com/colors
+
+Libs de Fontes:
+https://www.cssfontstack.com/
+
+https://www.w3schools.com/
+
+Bootstrap e JQuery:
+https://www.google.com/search?q=passo+site+php+bootstrap&oq=passo+site+php+bpptstra&aqs=chrome.1.69i57j33i10i160.10399j1j7&sourceid=chrome&ie=UTF-8
+https://www.devmedia.com.br/criando-um-site-completo-com-bootstrap-e-jquery/32473
+https://getbootstrap.com/
+
+
+
+Outros cuscadores:
+https://www.searchencrypt.com/
+https://yippy.com/
+
+
+Recesso de final de ano
+última aula: 12/12
+Retorna: 12/01
