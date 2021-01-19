@@ -1,0 +1,23 @@
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+button, #numero, #resultado{
+    text-align: center;
+}
+
+#numero {
+    width: 400px;
+}
+
+#resultado {
+    width: 500px;
+    border: 1px solid green;
+}
+
+.container {
+    width: 900px;
+    height: 600px;
+    border: 1px solid blue;
+}
