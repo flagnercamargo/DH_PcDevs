@@ -1,6 +1,7 @@
 Professores:
 Rafael Lopes
 Jessica Ferigato Mignella
+Ian Andrade Moreira
 
 Indicações:
     Curso de Java, professor Nélio

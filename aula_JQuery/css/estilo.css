@@ -1,0 +1,12 @@
+.container {
+    background: lightblue;
+    margin: 10px 10px;
+}
+.btn {
+    margin-bottom: 10px;
+}
+.form-subtitle {
+    font-size: small;
+    font-style: italic;
+    color: gray;
+}

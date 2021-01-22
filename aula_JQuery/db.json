@@ -1,9 +1,9 @@
 {
-    "usuarios": [
-        {
-            "id": 1,
-            "nome": "Flagner",
-            "cidade": "Curitiba"
-        }
-    ]
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Flagner",
+      "cidade": "Curitiba"
+    }
+  ]
 }
