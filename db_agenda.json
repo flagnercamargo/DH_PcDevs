@@ -1,0 +1,8 @@
+{
+  "agenda": [
+    {"id": 1,"nome": "Flagner","telefone": "41 988709294"},
+    {"id": 2,"nome": "Rafael","telefone": "42 988709295"},
+    {"id": 3,"nome": "Ian","telefone": "43 988709296"},
+    {"id": 4,"nome": "Maria","telefone": "44 988709297"}
+  ]
+}

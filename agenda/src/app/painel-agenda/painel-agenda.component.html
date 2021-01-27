@@ -1,5 +1,17 @@
-<h1>
-    Olá {{ nome }}.
-</h1>
-
+<!-- <h1> Olá {{ nome }}. </h1>
 <p>painel-agenda está funcionando!</p>
+<br>
+<input type="text" [(ngModel)]="nome"> -->
+<!-- table>tr>th*3 // cria a tabela com 3 colunas de cabeçalhos -->
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Telefone</th>
+    </tr>
+    <tr *ngFor="let i of agenda">
+        <td>{{i.id}}</td>
+        <td>{{i.nome}}</td>
+        <td>{{i.telefone}}</td>
+    </tr>
+</table>
