@@ -7,6 +7,10 @@ import { AppComponent } from './app.component';
 import { PainelAgendaComponent } from './painel-agenda/painel-agenda.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TableModule } from 'primeng/table';
+import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from 'primeng/button';
+import { ToastModule } from 'primeng/toast';
+import { PanelModule } from 'primeng/panel';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { TableModule } from 'primeng/table';
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    TableModule
+    TableModule,
+    InputTextModule,
+    ButtonModule,
+    ToastModule,
+    PanelModule
   ],
   providers: [],
   bootstrap: [AppComponent]

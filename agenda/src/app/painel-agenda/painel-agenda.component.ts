@@ -18,7 +18,8 @@ export class PainelAgendaComponent implements OnInit {
   //   {id: 4, nome: 'Maria', telefone: '(44) 988709297'}
   // ];
 
-  agenda = [];  
+  agenda = []; // array que vai receber todos os registros
+  contato: any = {}; //vai receber somente um registro de cada vez
 
   // Ctrl + space para ele fazer o import automático do AgendaService
   constructor(private service: AgendaService) {}
@@ -32,5 +33,11 @@ export class PainelAgendaComponent implements OnInit {
     listar().
     subscribe(resposta => this.agenda = <any>resposta);
   }
-
+  adicionar(){
+    this.service.adicionar(this.contato).subscribe(
+      () => {
+        this.contato = {}; //limpar os campos
+        this.buscar();
+      });
+  }  
 }

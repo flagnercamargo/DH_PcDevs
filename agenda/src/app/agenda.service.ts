@@ -6,10 +6,13 @@ import { Injectable } from '@angular/core';
 })
 export class AgendaService {
   // URL do backend do JSON Server
-  url = 'http://localhost:3000/agenda';
+  urlBD = 'http://localhost:3000/agenda';
   constructor(private http: HttpClient) {}
 
   listar(){
-    return this.http.get(this.url);
+    return this.http.get(this.urlBD);
   }
+  adicionar(contato: any){
+    return this.http.post(this.urlBD, contato)
+  }  
 }
