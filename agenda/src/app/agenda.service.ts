@@ -14,5 +14,11 @@ export class AgendaService {
   }
   adicionar(contato: any){
     return this.http.post(this.urlBD, contato)
-  }  
+  }
+  atualizar(contato: any){
+    return this.http.put(this.urlBD + '/' + contato.id, contato);
+  }
+  excluir(id: number){
+    return this.http.delete(this.urlBD + '/' + id);
+  }
 }
