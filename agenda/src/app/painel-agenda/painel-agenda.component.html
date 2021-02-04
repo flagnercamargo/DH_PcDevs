@@ -19,7 +19,7 @@
 <br>
 <br>
 <div class="content" role="main">
-    <br>
+    <!-- <br>
     <p-panel header="Agenda"[toggleable]="true">
         <div class="p-grid">
             <div class="p-col-2">Nome:</div>
@@ -40,36 +40,29 @@
                 </button>
             </div>
         </div>
-    </p-panel>
-
-    <br>
-
-    <p-panel header="Agenda 2" [toggleable]="true">
-        <div class="p-grid">
-            <div>
-                <span class="p-float-label">
-                    <input id="float-input" type="text" pInputText [(ngModel)]="contato.nome">
-                    <label for="float-input">Nome</label>
-                </span>
-            </div>
-            <div>
-                <span class="p-float-label">
-                    <input id="float-input" type="text" pInputText [(ngModel)]="contato.telefone">
-                    <label for="float-input">Telefone</label>
-                </span>
-            </div>
+    </p-panel> -->
+    <p-panel header="Agenda" [toggleable]="true">
+        <div class="p-grid" style="margin: 0px 0px 10px 0px;">
+            <span class="p-float-label" style="margin-right: 5px;">
+                <input id="float-input" type="text" pInputText [(ngModel)]="contato.nome">
+                <label for="float-input">Nome</label>
+            </span>
+            <span class="p-float-label">
+                <input id="float-input" type="text" pInputText [(ngModel)]="contato.telefone">
+                <label for="float-input">Telefone</label>
+            </span>
         </div>
         <div>
             <button type="submit"
-            label=Adicionar
+            [label]="operacao == true ? 'Adicionar' : 'Atualizar'"
             pButton
-            (click)="adicionar()">
+            (click)="inserirOuAtualizar()">
             </button>
         </div>
     </p-panel>
 
     <br>
-    <p-panel header="Retorno Agenda" [toggleable]="true">
+    <p-panel header="Contatos" [toggleable]="true">
     <p-table [value]="agenda" class="mt-5">
         <ng-template pTemplate="header">
             <tr>
@@ -87,9 +80,9 @@
                 <td>{{i.nome}}</td>
                 <td>{{i.telefone}}</td>
 
-                <td > <!-- title  = titulo (ou texto literal) geralmente usado para botões e images. Mas podem ser usados em outras tags também  -->
-                    <p-button (click)="editar(i)" style="margin: 0 10px;" icon="pi pi-pencil" [title]="'Editar contato ' + i.id"></p-button>
-                    <p-button (click)="excluir(i.id)" style="margin: 0 10px;" icon="pi pi-trash" title="Excluir"></p-button>
+                <td class="p-grid"> <!-- title  = titulo (ou texto literal) geralmente usado para botões e images. Mas podem ser usados em outras tags também  -->
+                    <p-button style="margin-right: 5px;" (click)="editar(i)" icon="pi pi-pencil" [title]="'Editar contato ' + i.id"></p-button>
+                    <p-button (click)="excluir(i.id)" icon="pi pi-trash" title="Excluir"></p-button>
                 </td>
 
                 <!-- <td class="th-acoes">
