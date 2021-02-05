@@ -11,6 +11,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
 import { ToastModule } from 'primeng/toast';
 import { PanelModule } from 'primeng/panel';
+import { InputMaskModule } from 'primeng/inputmask';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { PanelModule } from 'primeng/panel';
     InputTextModule,
     ButtonModule,
     ToastModule,
-    PanelModule
+    PanelModule,
+    InputMaskModule
   ],
   providers: [],
   bootstrap: [AppComponent]

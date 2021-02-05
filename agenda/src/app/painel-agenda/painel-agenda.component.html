@@ -48,7 +48,8 @@
                 <label for="float-input">Nome</label>
             </span>
             <span class="p-float-label">
-                <input id="float-input" type="text" pInputText [(ngModel)]="contato.telefone">
+                <p-inputMask [(ngModel)]="contato.telefone" mask="(99) 99999-9999"></p-inputMask>
+                <!-- <input id="float-input" type="text" pInputText [(ngModel)]="contato.telefone"> -->
                 <label for="float-input">Telefone</label>
             </span>
         </div>
@@ -63,34 +64,39 @@
 
     <br>
     <p-panel header="Contatos" [toggleable]="true">
-    <p-table [value]="agenda" class="mt-5">
-        <ng-template pTemplate="header">
-            <tr>
-                <th>ID</th>
-                <th>Nome</th>
-                <th>Telefone</th>
-                <th class="th-acoes">Ações</th> <!-- Adiciona uma coluna com as ações possíveis para cada registro -->
-                <!-- Ações é coluna onde fica os botões de manipulação dos contatos-->
-                <!-- th =  table header -->
-            </tr>
-        </ng-template>
-        <ng-template pTemplate="body" let-i> <!-- faz um For com cada elemento do array e coloca na variável "i" -->
-            <tr> <!-- tr = table row = linha da tabela -->
-                <td>{{i.id}}</td>
-                <td>{{i.nome}}</td>
-                <td>{{i.telefone}}</td>
-
-                <td class="p-grid"> <!-- title  = titulo (ou texto literal) geralmente usado para botões e images. Mas podem ser usados em outras tags também  -->
-                    <p-button style="margin-right: 5px;" (click)="editar(i)" icon="pi pi-pencil" [title]="'Editar contato ' + i.id"></p-button>
-                    <p-button (click)="excluir(i.id)" icon="pi pi-trash" title="Excluir"></p-button>
-                </td>
-
-                <!-- <td class="th-acoes">
-                    <p-button (click)="editar(id)" style="margin: 0 10px;" icon="pi pi-pencil" [title]="'Editar contato ' + i.id"></p-button>
-                    <p-button (click)="excluir(i.id)" style="margin: 0 10px;" icon="pi pi-trash" title="Excluir"></p-button>
-                </td> -->
-            </tr>
-        </ng-template>
-    </p-table>
-</p-panel>
+        <div class="mt-5">
+            <p-table [value]="agenda" 
+            [paginator]="true" 
+            [rows]="5"
+            [showCurrentPageReport]="true"
+            currentPageReportTemplate="Exibindo de {first} até {last} do total de {totalRecords} contatos."
+            [rowsPerPageOptions]="[5,10,15]">
+                <ng-template pTemplate="header">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                        <th class="th-acoes">Ações</th> <!-- Adiciona uma coluna com as ações possíveis para cada registro -->
+                        <!-- Ações é coluna onde fica os botões de manipulação dos contatos-->
+                        <!-- th =  table header -->
+                    </tr>
+                </ng-template>
+                <ng-template pTemplate="body" let-i> <!-- faz um For com cada elemento do array e coloca na variável "i" -->
+                    <tr> <!-- tr = table row = linha da tabela -->
+                        <td>{{i.id}}</td>
+                        <td>{{i.nome}}</td>
+                        <td>{{i.telefone}}</td>
+                        <td class="p-grid"> <!-- title  = titulo (ou texto literal) geralmente usado para botões e images. Mas podem ser usados em outras tags também  -->
+                            <p-button style="margin-right: 5px;" (click)="editar(i)" icon="pi pi-pencil" [title]="'Editar contato ' + i.id"></p-button>
+                            <p-button (click)="excluir(i.id)" icon="pi pi-trash" title="Excluir"></p-button>
+                        </td>
+                        <!-- <td class="th-acoes">
+                        <p-button (click)="editar(id)" style="margin: 0 10px;" icon="pi pi-pencil" [title]="'Editar contato ' + i.id"></p-button>
+                        <p-button (click)="excluir(i.id)" style="margin: 0 10px;" icon="pi pi-trash" title="Excluir"></p-button>
+                        </td> -->
+                    </tr>
+                </ng-template>
+            </p-table>
+        </div>
+    </p-panel>
 </div>

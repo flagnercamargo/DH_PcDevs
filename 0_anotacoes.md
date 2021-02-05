@@ -48,3 +48,34 @@ Outros Buscadores:
 Recesso de final de ano
 última aula: 12/12
 Retorna: 12/01
+
+=============================================================
+
+<!-- 
+    mr = margin-right;
+    mb = margin-bottom;
+    mt = margin-top;
+    ml = margin-left;
+ -->
+ <!-- 
+    pr = padding-right;
+    pb = padding-bottom;a
+    pt = padding-top;
+    pl = padding-left;
+ -->
+ <!-- 
+    m-5  = margin: 3rem;
+    my-5 = margin: 0 3rem;
+    mx-5 = margin: 3rem 0rem; 
+-->
+<!-- 
+    p-5  = padding: 3rem;
+    py-5 = padding: 0 3rem;
+    px-5 = padding: 3rem 0rem; 
+-->
+<!-- mt-5 = margin-top: 3rem; -->
+<!-- mt-4 = margin-top: 2rem; -->
+<!-- mt-3 = margin-top: 1.5rem; -->
+<!-- mt-2 = margin-top: 1rem; -->
+<!-- mt-1 = margin-top: 0.5rem; -->
+
