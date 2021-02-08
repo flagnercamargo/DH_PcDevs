@@ -1,5 +1,5 @@
 <!-- <h1> Olá {{ nome }}. </h1>
-<p>painel-agenda está funcionando!</p>
+<p>painel-cliente está funcionando!</p>
 <br>
 <input type="text" [(ngModel)]="nome"> -->
 <!-- table>tr>th*3 // cria a tabela com 3 colunas de cabeçalhos -->
@@ -9,7 +9,7 @@
         <th>Nome</th>
         <th>Telefone</th>
     </tr>
-    <tr *ngFor="let i of agenda">
+    <tr *ngFor="let i of cliente">
         <td>{{i.id}}</td>
         <td>{{i.nome}}</td>
         <td>{{i.telefone}}</td>
@@ -20,7 +20,7 @@
 <br>
 <div class="content" role="main">
     <!-- <br>
-    <p-panel header="Agenda"[toggleable]="true">
+    <p-panel header="cliente"[toggleable]="true">
         <div class="p-grid">
             <div class="p-col-2">Nome:</div>
             <div class="p-col-10">
@@ -41,7 +41,7 @@
             </div>
         </div>
     </p-panel> -->
-    <p-panel header="Agenda" [toggleable]="true">
+    <p-panel header="cliente" [toggleable]="true">
         <div class="p-grid" style="margin: 0px 0px 10px 0px;">
             <span class="p-float-label" style="margin-right: 5px;">
                 <input id="float-input" type="text" pInputText [(ngModel)]="contato.nome">
@@ -65,7 +65,7 @@
     <br>
     <p-panel header="Contatos" [toggleable]="true">
         <div class="mt-5">
-            <p-table [value]="agenda" 
+            <p-table [value]="cliente" 
             [paginator]="true"
             [rows]="5"
             [showCurrentPageReport]="true"

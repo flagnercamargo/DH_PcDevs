@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PainelAgendaComponent } from './painel-agenda/painel-agenda.component';
+import { PainelclienteComponent } from './painel-cliente/painel-cliente.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TableModule } from 'primeng/table';
 import { InputTextModule } from 'primeng/inputtext';
@@ -16,7 +16,7 @@ import { InputMaskModule } from 'primeng/inputmask';
 @NgModule({
   declarations: [
     AppComponent,
-    PainelAgendaComponent
+    PainelclienteComponent
   ],
   imports: [
     BrowserModule,

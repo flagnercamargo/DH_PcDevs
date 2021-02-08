@@ -1,29 +1,29 @@
-import { AgendaService } from './../agenda.service';
+import { clienteService } from './../cliente.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-painel-agenda',
-  templateUrl: './painel-agenda.component.html',
-  styleUrls: ['./painel-agenda.component.css']
+  selector: 'app-painel-cliente',
+  templateUrl: './painel-cliente.component.html',
+  styleUrls: ['./painel-cliente.component.css']
 })
-export class PainelAgendaComponent implements OnInit {
+export class PainelclienteComponent implements OnInit {
 
-  nome = 'Zé Agenda';
+  nome = 'Zé cliente';
 
   // Abaixo é declarado um Array com 3 registros para simular uma entrada de dados
-  // agenda = [
+  // cliente = [
   //   {id: 1, nome: 'Flagner', telefone: '(41) 988709294'},
   //   {id: 2, nome: 'Rafael', telefone: '(42) 988709295'},
   //   {id: 3, nome: 'Ian', telefone: '(43) 988709296'},
   //   {id: 4, nome: 'Maria', telefone: '(44) 988709297'}
   // ];
 
-  agenda = []; // array que vai receber todos os registros
+  cliente = []; // array que vai receber todos os registros
   contato: any = {}; //vai receber somente um registro de cada vez
   operacao: boolean = true; // boolean [true, false]
 
-  // Ctrl + space para ele fazer o import automático do AgendaService
-  constructor(private service: AgendaService) {}
+  // Ctrl + space para ele fazer o import automático do clienteService
+  constructor(private service: clienteService) {}
 
   ngOnInit(): void {
     this.buscar();
@@ -32,7 +32,7 @@ export class PainelAgendaComponent implements OnInit {
   buscar(){
     this.service.
     listar().
-    subscribe(resposta => this.agenda = <any>resposta);
+    subscribe(resposta => this.cliente = <any>resposta);
   }
   adicionar(){
     this.service.adicionar(this.contato).subscribe(() => {

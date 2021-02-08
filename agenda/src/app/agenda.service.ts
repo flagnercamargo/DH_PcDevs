@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class AgendaService {
+export class agendaService {
   // URL do backend do JSON Server
   urlBD = 'http://localhost:3000/agenda';
   constructor(private http: HttpClient) {}

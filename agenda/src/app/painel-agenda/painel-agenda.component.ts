@@ -1,4 +1,4 @@
-import { AgendaService } from './../agenda.service';
+import { agendaService } from './../agenda.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './painel-agenda.component.html',
   styleUrls: ['./painel-agenda.component.css']
 })
-export class PainelAgendaComponent implements OnInit {
+export class PainelagendaComponent implements OnInit {
 
-  nome = 'Zé Agenda';
+  nome = 'Zé agenda';
 
   // Abaixo é declarado um Array com 3 registros para simular uma entrada de dados
   // agenda = [
@@ -22,8 +22,8 @@ export class PainelAgendaComponent implements OnInit {
   contato: any = {}; //vai receber somente um registro de cada vez
   operacao: boolean = true; // boolean [true, false]
 
-  // Ctrl + space para ele fazer o import automático do AgendaService
-  constructor(private service: AgendaService) {}
+  // Ctrl + space para ele fazer o import automático do agendaService
+  constructor(private service: agendaService) {}
 
   ngOnInit(): void {
     this.buscar();
