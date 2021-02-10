@@ -1,0 +1,17 @@
+
+Baixar o projeto do Rafael e coloca pra rodar:
+
+Passo 1
+Cria uma pasta para o projeto e entra nela;
+Passo 2
+Baixa o projeto: git clone git@github.com:galotinho/cliente.git
+Passo 3
+Entra na pasta: cd cliente
+Passo 4
+Muda a branch para a master: git chekout master
+Passo 5
+Instala as dependencias: npm i
+Passo 6
+Roda o projeto angular: ng serve
+Passo 7
+Vamos adicionar o db.json

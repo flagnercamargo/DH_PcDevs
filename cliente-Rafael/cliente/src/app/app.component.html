@@ -31,4 +31,14 @@
     </a>
 </div>
 <br>
-<app-painel-cliente></app-painel-cliente>
+
+<router-outlet></router-outlet>
+
+<p-toast position="bottom-center" key="toast"></p-toast>
+
+<p-confirmDialog #cd header="Confirmar" icon="pi pi-exclamation-triangle">
+    <p-footer>
+        <button type="button" pButton icon="pi pi-times" label="Não" (click)="cd.reject()"></button>
+        <button type="button" pButton icon="pi pi-check" label="Sim" (click)="cd.accept()"></button>
+    </p-footer>
+</p-confirmDialog>

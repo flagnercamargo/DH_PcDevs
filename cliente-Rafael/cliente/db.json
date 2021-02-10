@@ -1,0 +1,210 @@
+{
+  "cliente": [
+    {
+      "id": 1,
+      "nome": "Rafael",
+      "sobrenome": "Lopes",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(77) 77777-7777",
+      "cpf": "777777777777",
+      "rg": "777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777777",
+        "complemento": "77777777",
+        "numero": "77777777",
+        "bairro": "777777777",
+        "estado": {
+          "id": "",
+          "nome": "",
+          "cidade": {
+            "id": "",
+            "nome": ""
+          }
+        }
+      },
+      "dataNasc": "2021-02-23"
+    },
+    {
+      "id": 2,
+      "nome": "Rafael",
+      "sobrenome": "Lopes",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(88) 88888-8888",
+      "cpf": "8888888",
+      "rg": "88888888",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "888888",
+        "complemento": "8888888",
+        "numero": "8888888",
+        "bairro": "88888888",
+        "estado": {
+          "id": 1,
+          "nome": "Bahia",
+          "cidade": {
+            "id": 2,
+            "nome": "Ilhéus"
+          }
+        }
+      },
+      "dataNasc": "2021-02-24"
+    },
+    {
+      "id": 3,
+      "nome": "Rafael",
+      "sobrenome": "Lopes",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(99) 99999-9999",
+      "cpf": "9999999999876",
+      "rg": "99999999",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "99999999998",
+        "complemento": "9998",
+        "numero": "999998",
+        "bairro": "9999999998",
+        "estado": {
+          "id": 1,
+          "nome": "Bahia",
+          "cidade": {
+            "id": 2,
+            "nome": "Ilhéus"
+          }
+        }
+      },
+      "dataNasc": "2021-03-13"
+    },
+    {
+      "id": 4,
+      "nome": "Rafael",
+      "sobrenome": "Lopes",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(22) 22222-2222",
+      "cpf": "222222",
+      "rg": "22222",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "2222",
+        "complemento": "222222",
+        "numero": "2222",
+        "bairro": "222298",
+        "estado": {
+          "id": 1,
+          "nome": "Bahia",
+          "cidade": {
+            "id": 2,
+            "nome": "Ilhéus"
+          }
+        }
+      },
+      "dataNasc": "2021-02-21"
+    },
+    {
+      "id": 5,
+      "nome": "Rafael",
+      "sobrenome": "Lopes",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(33) 33333-3333",
+      "cpf": "33333",
+      "rg": "3333",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "333333",
+        "complemento": "33",
+        "numero": "333333333",
+        "bairro": "333333333334",
+        "estado": {
+          "id": 1,
+          "nome": "Bahia",
+          "cidade": {
+            "id": 2,
+            "nome": "Ilhéus"
+          }
+        }
+      },
+      "dataNasc": "2021-02-06"
+    },
+    {
+      "id": 6,
+      "nome": "Rafael",
+      "sobrenome": "Lopes",
+      "email": "galotinhodelta@gmail.com",
+      "telefone": "(77) 77777-7777",
+      "cpf": "777777777",
+      "rg": "77777777",
+      "endereco": {
+        "cep": "45651680",
+        "logradouro": "777",
+        "complemento": "77",
+        "numero": "77",
+        "bairro": "77777",
+        "estado": {
+          "id": 1,
+          "nome": "Bahia",
+          "cidade": {
+            "id": 2,
+            "nome": "Ilhéus"
+          }
+        }
+      },
+      "dataNasc": "2021-03-02"
+    },
+    {
+      "id": 7,
+      "nome": "Flagner",
+      "sobrenome": "Camargo",
+      "email": "flagner.camargo@gmail.com",
+      "telefone": "(41) 99999-9999",
+      "cpf": "99999999999",
+      "rg": "9999999999",
+      "endereco": {
+        "cep": "80555222",
+        "logradouro": "minha rua",
+        "complemento": "minha casa",
+        "numero": "100",
+        "bairro": "vila",
+        "estado": {
+          "id": 3,
+          "nome": "Minas Gerais",
+          "cidade": {
+            "id": 3,
+            "nome": "Belo Horizonte"
+          }
+        }
+      },
+      "dataNasc": "1900-01-01"
+    }
+  ],
+  "estado": [
+    {
+      "id": 1,
+      "nome": "Bahia"
+    },
+    {
+      "id": 2,
+      "nome": "São Paulo"
+    },
+    {
+      "id": 3,
+      "nome": "Minas Gerais"
+    }
+  ],
+  "cidade": [
+    {
+      "id": 1,
+      "nome": "Salvador",
+      "estado": 1
+    },
+    {
+      "id": 2,
+      "nome": "Ilhéus",
+      "estado": 1
+    },
+    {
+      "id": 3,
+      "nome": "Belo Horizonte",
+      "estado": 3
+    }
+  ]
+}
