@@ -21,7 +21,7 @@ import { AppComponent } from './app.component';
     HttpClientModule,
     ToastModule,
     ConfirmDialogModule,
-    ClienteModule   
+    ClienteModule
   ],
   providers: [
     MessageService,

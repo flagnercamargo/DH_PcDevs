@@ -3,6 +3,8 @@ Rafael Lopes
 Jessica Ferigato Mignella
 Ian Andrade Moreira
 
+Marcar co-learning com Ian: https://calendly.com/imoreira/atendimento 
+
 Indicações:
     Curso de Java, professor Nélio
         https://www.udemy.com/course/java-curso-completo/

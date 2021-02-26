@@ -11,12 +11,13 @@
         [loading]="loading"
         [filterDelay]="0" 
         [globalFilterFields]="['id','nome','email','endereco.cep']">
-        <ng-template pTemplate="caption">
-            <div class="table-header">           
+        <ng-template pTemplate="caption">            
+            <div class="table-header">
                 <span class="p-input-icon-left">
                     <i class="pi pi-search"></i>
                     <input #pesquisa pInputText type="text" (input)="dt.filterGlobal(pesquisa.value, 'contains')" placeholder="Pesquisar" />
                 </span>
+                <p-button type="button" routerLink="/cliente" style="margin-left: 25px;">Novo Cliente</p-button>
             </div>
         </ng-template>
         <ng-template pTemplate="header">
@@ -33,15 +34,18 @@
                 <td>{{cliente.id}}</td>
                 <td>{{cliente.nome}}</td>
                 <td>{{cliente.email}}</td>
-                <td>{{cliente.endereco.cep}}</td>
+                <td>
+                    <p-inputMask [(ngModel)]="cliente.endereco.cep" mask="99999-999"></p-inputMask>
+                </td>
+                <!-- <td >{{cliente.endereco.cep}}</td> -->
                 <td class="deletar-atualizar">
                     <p-button routerLink="/cliente/{{cliente.id}}" class="espaco" icon="pi pi-pencil"></p-button>
                     <p-button (click)="excluir(cliente.id)" icon="pi pi-trash"></p-button>
                 </td>
             </tr>
         </ng-template>
-        <ng-template pTemplate="paginatorleft">
+        <!-- <ng-template pTemplate="paginatorleft">
             <p-button type="button" routerLink="/cliente">Novo Cliente</p-button>
-        </ng-template>
+        </ng-template> -->
     </p-table>
 </div>

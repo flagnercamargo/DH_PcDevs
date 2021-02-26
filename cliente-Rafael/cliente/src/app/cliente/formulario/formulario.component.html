@@ -1,44 +1,85 @@
 <div class="container mt-5 mb-5 pt-5" style="position: relative;">
-
     <form (ngSubmit)="cadastrarOuAtualizar()">
         <div class="form-row">
-            <input 
-            type="hidden" 
-            name="id"
-            [(ngModel)]="cliente.id" 
-            />
-            <div class="form-group col-md-6">
-                <label for="nome">Nome</label>
+            <input type="hidden" name="id" [(ngModel)]="cliente.id">
+            <div class="form-group col-md-3">
+                <span class="p-float-label">
+                    <input id="float-input" type="text" pInputText [(ngModel)]="cliente.nome">
+                    <label for="float-input">Nome</label>
+                </span>
+            </div>
+            <div class="form-group col-md-3">
+                <span class="p-float-label">
+                    <input id="float-input" type="text" pInputText [(ngModel)]="cliente.sobrenome">
+                    <label for="float-input">Sobrenomeome</label>
+                </span>
+            </div>
+            <div class="form-group col-md-3">
+                <span class="p-float-label">
+                    <p-inputMask [(ngModel)]="cliente.telefone" mask="(99) 99999-9999"></p-inputMask>
+                    <label for="float-input">Telefone</label>
+                </span>
+            </div>
+            <div class="form-group col-md-3">
+                <span class="p-float-label">
+                    <input id="float-input" type="text" pInputText [(ngModel)]="cliente.email">
+                    <label for="float-input">E-mail</label>
+                </span>
+            </div>
+        </div>
+        <br>
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <span class="p-float-label">
+                    <p-inputMask [(ngModel)]="cliente.cpf" mask="999.999.999-99"></p-inputMask>
+                    <label for="float-input">CPF</label>
+                </span>
+            </div>
+            <div class="form-group col-md-3">
+                <span class="p-float-label">
+                    <input id="float-input" type="text" pInputText [(ngModel)]="cliente.rg">
+                    <label for="float-input">RG</label>
+                </span>
+            </div>
+            <div class="form-group col-md-3">
+                <span class="p-float-label">
+                    <p-inputMask [(ngModel)]="cliente.dataNasc" mask="99/99/9999"></p-inputMask>
+                    <label for="float-input">Data Nasc.</label>
+                </span>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="nome">Foto</label>
+                <p-fileUpload #upload
+                    name="demo[]"
+                    chooseLabel="Escolher uma foto"
+                    [showUploadButton]="false"
+                    [showCancelButton]="false"
+                    [multiple]="false"
+                    accept="image/*">
+                </p-fileUpload>
+            </div>
+        </div>
+        <div class="form-row">
+            
+        </div>
+
+            <!-- <label for="nome">Nome</label>
                 <input 
                     name="nome" 
                     type="text" 
                     class="form-control" 
                     [(ngModel)]="cliente.nome" 
                 />
-            </div>
-            <div class="form-group col-md-6">
-                <label for="sobrenome">Sobrenome</label>
+            <label for="sobrenome">Sobrenome</label>
                 <input 
                     type="text" 
                     class="form-control" 
                     name="sobrenome" 
                     [(ngModel)]="cliente.sobrenome"                
-                /> 
-            </div>            
-        </div>
-        <div class="form-group" >
-            <label for="nome">Foto</label>
-            <p-fileUpload #upload
-                name="demo[]" 
-                chooseLabel="Escolher uma foto" 
-                [showUploadButton]="false"
-                [showCancelButton]="false"                
-                [multiple]="false" 
-                accept="image/*">               
-            </p-fileUpload>
-        </div>
-        <div class="form-group">
-            <label for="telefone">Telefone</label>
+                />  -->
+                            
+        
+        <!-- <div class="form-row">
             <p-inputMask 
                 styleClass="form-control" 
                 name="telefone" 
@@ -46,14 +87,8 @@
                 [(ngModel)]="cliente.telefone" 
                 mask="(99) 99999-9999">
             </p-inputMask>
-        </div>        
-        <div class="form-group">
             <label for="email">E-mail</label>
-            <input 
-            type="email" 
-            class="form-control" 
-            name="email" 
-            [(ngModel)]="cliente.email" />
+                <input type="email" class="form-control" name="email" [(ngModel)]="cliente.email">
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
@@ -80,7 +115,7 @@
                 name="dataNasc" 
                 [(ngModel)]="cliente.dataNasc">
             </div>
-        </div>
+        </div> -->
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="cep">CEP</label>

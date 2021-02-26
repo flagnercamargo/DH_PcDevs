@@ -8,8 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PainelagendaComponent implements OnInit {
 
-  nome = 'Zé agenda';
-
   // Abaixo é declarado um Array com 3 registros para simular uma entrada de dados
   // agenda = [
   //   {id: 1, nome: 'Flagner', telefone: '(41) 988709294'},
@@ -65,9 +63,8 @@ export class PainelagendaComponent implements OnInit {
     this.service.excluir(id).subscribe(() => {
       this.buscar();
       alert("Item excluído com sucesso!")
-    }, 
-    () => alert("Não foi possível excliur o item!")  
+    },
+    () => alert("Não foi possível excliur o item!")
     );
   }
 }
-
