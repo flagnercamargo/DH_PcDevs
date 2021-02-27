@@ -11,7 +11,8 @@ public class Main {
 		//questao4();
 		//questao5();
 		//questao6();
-		//questão7();
+		//questao7();
+		questao8();
 	}
 	
 	public static void questao1() {
@@ -172,6 +173,79 @@ public class Main {
 //		1 - À vista em dinheiro ou cheque, recebe 10 porcento de desconto
 //		2 - À vista no cartão de crédito, recebe 15 porcento de desconto
 //		3 - Em duas vezes, preço normal de etiqueta sem juros
-//		4 - Em duas vezes, preço normal de etiqueta mais juros de 10 porcento
+//		4 - Em três vezes, preço normal de etiqueta mais juros de 10 porcento
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double valorEtiqueta,valorFinal;
+		System.out.println("Digite o valor da Etiqueta: ");		
+		valorEtiqueta = sc.nextDouble();
+						
+		int opcaoPagto;
+		System.out.println("1 - À vista em dinheiro ou cheque.");
+		System.out.println("2 - À vista no cartão de crédito.");
+		System.out.println("3 - Em duas vezes.");
+		System.out.println("4 - Em três vezes.");
+		System.out.println("Digite a opção de Pagamento: ");		
+		opcaoPagto = sc.nextInt();
+		
+		if ( opcaoPagto == 1) {
+			valorFinal = valorEtiqueta * 0.9;
+			System.out.println("Seu valor Final é: " + valorFinal);
+		}else if ( opcaoPagto == 2) {
+			valorFinal = valorEtiqueta * 0.85;
+			System.out.println("Seu valor Final é: " + valorFinal);
+		}else if ( opcaoPagto == 3) {
+			valorFinal = valorEtiqueta;
+			System.out.println("Seu valor Final é: " + valorFinal);
+		}else if ( opcaoPagto == 4) {
+			valorFinal = valorEtiqueta * 1.1;
+			System.out.println("Seu valor Final é: " + valorFinal);
+		}
+		sc.close();
+	}
+	
+	public static void questao8() {
+//		Igual a anterior mas com SWITCH/CASE
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double valorEtiqueta,valorFinal;
+		System.out.println("Digite o valor da Etiqueta: ");		
+		valorEtiqueta = sc.nextDouble();
+						
+		int opcaoPagto;
+		System.out.println("1 - À vista em dinheiro ou cheque.");
+		System.out.println("2 - À vista no cartão de crédito.");
+		System.out.println("3 - Em duas vezes.");
+		System.out.println("4 - Em três vezes.");
+		System.out.println("Digite a opção de Pagamento: ");		
+		opcaoPagto = sc.nextInt();
+		
+		switch (opcaoPagto) {
+		case 1: {
+			valorFinal = valorEtiqueta * 0.9;
+			System.out.println("Seu valor Final é: " + valorFinal);
+			break;
+		}
+		case 2: {
+			valorFinal = valorEtiqueta * 0.85;
+			System.out.println("Seu valor Final é: " + valorFinal);
+			break;
+		}
+		case 3: {
+			valorFinal = valorEtiqueta;
+			System.out.println("Seu valor Final é: " + valorFinal);
+			break;
+		}
+		case 4: {
+			valorFinal = valorEtiqueta * 1.1;
+			System.out.println("Seu valor Final é: " + valorFinal);
+			break;
+		}
+		default:
+			System.out.println("A opção: " + opcaoPagto + " é inválida!");
+		}
+		sc.close();
 	}
 }
