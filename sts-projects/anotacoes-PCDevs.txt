@@ -1,0 +1,153 @@
+
+// Sobre construtores
+// a ideia é instanciar um objeto já passando seus parâmetros
+
+	public void pessoa() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite o seu CPF: ");
+		int cpf = sc.nextInt();
+
+		exibirCPF(cpf);
+
+		sc.close();
+	}
+
+	public void exibirCPF(int cpf) {
+		System.out.println("Exibindo o cpf: "+cpf);
+	}
+	
+	
+==================================================
+
+// Sobre sobrecarga
+// mais de um método (construtor ou não) com mesmo nome mas quantidade/tipo de parâmetros diferentes.
+// dois métodos com dois parâmetros precisam ter tipos diferentes nesses parâmetros.
+
+public Produto(nome,valor) - (String,Double)
+public Produto(nome,valor) - (String,Int) senão dá erro
+
+public Produto() {
+	ações1
+}
+public Produto(nome,valor) {
+	ações2
+}
+public Produto(nome) {
+	ações3
+}
+
+==================================================
+
+
+package principal;
+
+public class Esfera {
+
+	static final double pi = 3.14159265;	
+	
+	public void circunferencia(double raio) {		
+		double circunferencia = 2.0*Math.PI*raio;
+		System.out.println("Circunferência: "+circunferencia);		
+	}	
+	
+	public void volume(double raio) {		
+		double volume = 4.0*Math.PI*raio*raio*raio/3;
+		System.out.println("Volume: "+volume);		
+	}
+}
+
+
+
+package principal;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Digite o valor do raio: ");		
+		double raio = sc.nextDouble();
+				
+		Esfera.circunferencia(raio);
+		Esfera.volume(raio);		
+	
+		System.out.println("PI: "+Esfera.pi);
+		
+		sc.close();
+			
+	}
+}
+
+
+
+
+
+public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in); //Atalho para importar CTRL+SHIFT+O
+				
+		System.out.println("Digite os dados do produto: ");
+		System.out.print("Nome: ");
+		String nome = sc.nextLine();
+		System.out.print("Preço: ");
+		double preco = sc.nextDouble();
+		System.out.print("Quantidade em estoque: ");
+		int quant = sc.nextInt();	
+		
+		Produto p1 = new Produto(nome, preco, quant);
+		
+		System.out.println(p1);	
+		
+		System.out.print("Digite a quantidade de itens a serem adicionados ao estoque: ");
+		int quantidade = sc.nextInt();
+		p1.adicionarEmEstoque(quantidade);
+		System.out.println(p1);			
+		
+		System.out.print("Digite a quantidade de itens a serem removidos do estoque: ");
+		quantidade = sc.nextInt();
+		p1.retirarDoEstoque(quantidade);
+		System.out.println(p1);			
+		
+		sc.close();	
+			
+	}
+
+
+
+package principal;
+
+public class Produto {
+
+	String nome;
+	double preco;
+	int quantidade;
+	
+	public Produto(String nome, double preco, int quantidade) {
+		this.nome = nome;
+		this.preco = preco;
+		this.quantidade = quantidade;
+	}
+	
+	public double valorTotalEmEstoque() {		
+		return preco*quantidade;
+	}
+	
+	public void adicionarEmEstoque(int quantidade) {
+		this.quantidade = this.quantidade + quantidade;
+	}
+	
+	public void retirarDoEstoque(int quantidade) {
+		this.quantidade = this.quantidade - quantidade;
+	}
+
+	@Override
+	public String toString() {
+		return "Dados do produto: " + nome + ", R$ " + preco + ", " + quantidade + " unidades, Total: R$ " + valorTotalEmEstoque();
+	}
+		
+}
+
+==========================================================
+
+

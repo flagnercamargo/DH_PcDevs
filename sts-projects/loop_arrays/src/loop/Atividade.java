@@ -1,62 +1,19 @@
 package loop;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Atividade {
 
 	public static void main(String[] args) {
 		
-		vetor();
 		//questao0(); // Não está no PDF da aula
 		//questao3while();
 		//questao3for();
-		//exercicio01();
+		exercicio01();
 		//exerc_triangulos();
-	}
-	
-	public static void vetor() {
-		Scanner sc = new Scanner(System.in);
-		
-	    int n = 10; // tamanho do vetor
-	    int v[] = new int[n]; // declaração do vetor "v"
-	    int i; // índice ou posição
-	    
-	    // Entrada de Dados
-	    for (i=0; i<n; i++) {
-	    	System.out.printf("Informe %do. valor de %d: ", (i+1), n);
-	    	v[i] = sc.nextInt();
-	    }
-	    
-	    // Processamento: somar todos os valores, definir o maior e o menor valor
-	    int soma = 0;
-	    int menor = v[0]; // v[0] = 1o. valor armazenador no vetor "v"
-	    int maior = v[0];
-	    
-	    for (i=0; i<n; i++) {
-	    	soma = soma + v[i];
-	    	
-	    	if (v[i] < menor)
-	    		menor = v[i];
-	    	
-	    	if (v[i] > maior)
-	    		maior = v[i];
-	    }
-	    
-	    // Saída (resultados)
-	    System.out.println();
-	    for (i=0; i<n; i++) {
-	    	if (v[i] == menor) {
-	    		System.out.printf("v[%d] = %d <--- menor valor\n", i, v[i]);
-	    	}else {
-	    		if (v[i] == maior) {
-	    			System.out.printf("v[%d] = %d <--- maior valor\n", i, v[i]);
-	    		}else {
-	    			System.out.printf("v[%d] = %d\n", i, v[i]);
-	    		}
-	    	}
-	    }
-	    System.out.printf("\nSoma = %d\n", soma);
-	    sc.close();
 	}
 
 		public static void questao0() {
@@ -126,23 +83,29 @@ public class Atividade {
 		}
 		
 		public static void exercicio01() {
-			// Cálculos salários
-			Scanner sc = new Scanner(System.in);
-			int ano = 1995;
-			double salario = 0, aumento = 1.5;
-			System.out.println("Digite o valor do salário: ");
-			salario = sc.nextDouble();
+			// Cálculo de salários
+			
+			int ano = 1995, anoContrato = 1995, anoAum2 = 1997, anoAtual = 2021;
+			double salario = 0, salarioInicial = 1000, aumento1 = 1.5;
+			
+			for ( anoContrato = ano ; ano < anoAum2 ; ano++) {
+				salario = salarioInicial + ( salarioInicial * aumento1 / 100 );
+				ano++;
+			}
+			for (ano = anoAum2 ; ano <= anoAtual ; ano++) {
+				salario = salario + ( salario * aumento2 / 100 );
+			}
 			do {
-				if (ano == 1995) {
+				if (anoInicio == 1995) {
 					salario = salario + ((salario / 100) * aumento);
 				} else {
 					aumento = 3;
 					salario = salario + ((salario / 100) * aumento);
 				}
 				BigDecimal salarioArr = new BigDecimal(salario).setScale(2, RoundingMode.HALF_EVEN);
-				System.out.println("O salário en " + ano + " é de: " + salarioArr);
-				ano++;
-			} while (ano <= 2021);
+				System.out.println("O salário em " + anoInicio + " era de: " + salarioArr);
+				anoInicio++;
+			} while (anoInicio <= 2021);
 			sc.close();
 		}
 		

@@ -12,7 +12,7 @@ public class Main {
 		//questao5();
 		//questao6();
 		//questao7();
-		questao8();
+		//questao8();
 	}
 	
 	public static void questao1() {
