@@ -1,0 +1,70 @@
+Loops e Arrays
+Tipos de Loops 
+
+
+While – Esta instrução é usada quando não sabemos quantas vezes um determinado bloco de instruções precisa ser repetido. Com ele, a execução das instruções vai continuar até que uma condição seja verdadeira. A condição a ser analisada para a execução do laço de repetição deverá retornar um valor booleano.
+
+
+Do/While – O do/while tem quase o mesmo funcionamento que o while, a diferença é que com o uso dele teremos os comandos executados ao menos uma única vez.
+
+
+For - Parece mais complicado, mas é de longe o loop mais usado nos programas, em parte por ser mais sintético.
+
+
+Break- Essa palavra-chave faz com que o loop em que ela está termine. Se houver nested loops, apenas o loop mais interno será terminado.
+
+
+Por exemplo, retomemos o loop infinito do for, mas com um meio de sair do loop, clicando qualquer tecla.
+
+
+Continue
+
+
+Esse comando faz com que a execução do programa pule para o topo do loop.
+
+
+Por exemplo, o seguinte código imprime todos os números de 0 a 50, exceto os que são múltiplos de 3 ou 4:
+1. #include <stdio.h>
+2.  
+3. int main(){
+4.  
+5.     for(int i=0; i<=50; i++){
+6.         if(i%3 == 0 || i%4 == 0)
+7.             continue;
+8.         printf("%d ", i);
+9.     }
+10.  
+11.     getchar();
+12.     return 0;
+13. }
+Output:
+
+
+1 2 5 7 10 11 13 14 17 19 22 23 25 26 29 31 34 35 37 38 41 43 46 47 49 50
+
+
+
+
+
+
+Arrays 
+
+
+Os arrays ou matrizes, como são conhecidos pelo Java, fazem parte do pacote java.util na coleção da API do Java. São objetos de recipientes que contém um número fixo de valores de um único tipo. O comprimento de um array é estabelecido quando criado, sendo que após a criação o seu comprimento fica fixo.
+Cada item em um array é chamado de elemento, e cada elemento é acessado pelo número, o índice. Abaixo é mostrado se dá esse acesso aos seus elementos, lembrando que sempre sua numeração começa em 0.
+Declarando Arrays
+Na declaração de um array, cada elemento recebe um valor padrão, sendo 0 (zero) para números de tipo primitivo, falso (false) para elementos booleanos e nulo (null) para referências. O programa que está na Listagem 1, cria um array de inteiros, coloca alguns valores nela, e imprime cada valor à saída padrão.
+Descobrindo o tamanho de um array
+Por padrão, cada array sabe seu próprio tamanho, independente de quantos valores forem inseridos. O array armazena na variável de instância o método length, que retorna o tamanho do array especificado.
+Inicializando um array
+Quando inicializamos um array no momento da declaração, é vista uma lista de valores separados por vírgula dispostos entre chaves { }.
+Percorrendo Arrays
+A instrução for aprimorado, como é conhecida, serve para obter elementos de um array, sem a possibilidade de alterá-los. Se caso houver necessidade de modificar os elementos, isso pode ser feito com a instrução for controlada por contador.
+Na sintaxe do for aprimorado é divida pelos seguintes parâmetros:
+* O tipo com um identificador (parâmetro);
+* O nome do array no qual serão feitas as iterações.
+Arrays multidimensionais
+Esse tipo de array é declarado como tendo duas dimensões e é usado para representar tabelas de valores que consistem em informações organizadas em linhas e colunas.
+Os arrays bidimensionais precisam de dois índices para identificar um elemento particular.
+Por exemplo, quando um array é identificado dessa forma “numero[indiceA][indiceB]”, a variável numero é o array, o indiceA é a linha e o indiceB é identificado como a coluna, fazendo uma identificação de cada elemento no array por número de linha e coluna.
+Exemplo de declaração: int [][] a = { { 1, 2 }, { 2, 2 } };

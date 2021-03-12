@@ -1,0 +1,230 @@
+Loops e Arrays
+
+Na aula passada...
+
+Variáveis
+
+Condicionais
+
+Funções
+
+Testes e debug
+
+
+
+	
+
+
+Loops
+while
+
+do...while
+
+for
+
+While
+
+Trata-se de um loop que pode ser utilizado
+ quando o número de repetições necessárias não é fixa.
+
+	while (condição)
+	  comando;
+
+Enquanto a condição for verdadeira o 
+comando será executado.
+
+Do...While
+
+Trata-se de um loop que pode ser utilizado 
+quando o número de repetições necessárias não é fixa. 
+Nesse loop a validação é feita ao final, isso significa 
+que a repetição será executada no mínimo uma vez.
+
+	do{
+	     comandos;
+	}
+	while (condição);
+
+Os comandos serão repetidos até que a condição 
+assuma valor falso.
+
+For
+
+Esse loop é utilizado quando se sabe o número de vezes em 
+que um comando deve ser repetido.
+
+
+for(i=valor inicial; condição; incremento ou decremento de i){
+	comandos;	
+}
+
+
+
+Entendendo a sintaxe do For
+
+for(i=valor inicial; condição; incremento ou decremento de i){
+	comandos;	
+}
+Onde:
+
+i=valor inicial- geralmente o valor inicial é 0, essa variável é chamada de contador e será incrementada ou decrementada a cada iteração;
+
+condição – quando essa condição for falsa determina o fim da repetição;
+
+incremento ou decremento de i – é responsável por alterar o valor de i com o objetivo, em algum momento, tornar a condição falsa.
+
+
+
+
+Quebra nas repetições
+
+Há situações em que é necessário interromper o fluxo normal  do loop antes que a condição se torne falsa, para isso temos duas palavras reservadas:
+
+break
+continue
+
+
+Enquanto a instrução break é utilizada para encerrar um laço, a instrução continue serve para iniciar uma nova repetição em que todas as instruções tenham sido executadas. Em laços while e do-while, uma instrução continue desvia o fluxo de execução para a condição. Em um laço for, ela desvia o fluxo de execução para a iteração e, em seguida, a condição é lida novamente.
+
+
+
+
+Mas qual usar?
+
+
+Veremos em qual situação usar cada um dos loops.
+
+While: quando não se sabe o número de vezes que o comando precisa ser executado;
+
+
+Do...while: quando não se sabe o número de vezes o comando precisa ser executado, mas sabe-se que no mínimo uma vez.
+
+
+For: quando se sabe exatamente quantas vezes o comando precisa ser executado.
+
+
+Exercícios
+
+
+
+
+
+
+
+
+	
+
+
+Arrays
+Definição
+
+Declaração
+
+Atribuir valor
+
+Percorrer
+
+	
+
+
+	
+
+Definição
+
+	Array é uma variável formada por uma sequência de variáveis, todas do mesmo tipo, com o mesmo nome e o que as distingue é um índice que serve com referência.
+
+
+
+
+
+
+Declaração
+
+
+
+
+
+
+String[] coresDoArcoIris = new String[7];
+
+
+
+
+Criamos um array de strings com 7 posições.
+
+
+Atribuir valor
+
+
+
+coresDoArcoIris[0] = “Vermelho”;
+coresDoArcoIris[1] = “Laranja”;
+coresDoArcoIris[2] = “Amarelo”;
+coresDoArcoIris[3] = “Verde”;
+coresDoArcoIris[4] = “Azul”;
+coresDoArcoIris[5] = “Anil”;
+coresDoArcoIris[6] = “Violeta”;
+
+
+Os índices do array vão de 0 a n-1, onde n é o tamanho dado no momento em que você criou o array. Se você tentar acessar uma posição fora desse alcance, um erro ocorrerá durante a execução.
+
+
+Como percorrer uma array?
+
+
+for(int i =0; i < 7; i++){
+     imprimir coresDoArcoIris[i];
+}
+
+
+
+Cada vez que o comando é executado uma cor será mostrada na tela.
+
+
+
+Operações com arrays
+
+
+
+Podemos trabalhar com cada item de uma array da mesma forma como trabalhamos com outras variáveis.
+Vamos considerar a array primeirosNumeros que contém os números de 1 a 10:
+
+
+int[] primeirosNumeros = new int[10];
+
+
+
+
+
+
+
+Operações com arrays
+
+
+
+
+
+
+
+
+
+Operadores Matemáticos
+
+Int soma = primeirosNumeros[0] + primeirosNumeros[1]
+Operadores Matemáticos de Atribuição
+
+primeirosNumeros[2] += primeirosNumeros[3]
+Operadores Relacionais
+
+primeirosNumeros[4]== primeirosNumeros[5]
+Operadores Lógicos
+
+boolean eIgual = (primeirosNumeros[4]== primeirosNumeros[5])  ||  primeirosNumeros[6]== primeirosNumeros[7]
+
+
+Exercícios
+
+
+
+
+

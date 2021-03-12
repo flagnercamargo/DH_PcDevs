@@ -9,7 +9,7 @@ public class vetor {
 	public static void calcVetor() {
 		Scanner sc = new Scanner(System.in);
 		
-	    int n = 10; // tamanho do vetor
+		int n = 10; // tamanho do vetor
 	    int v[] = new int[n]; // declaração do vetor "v"
 	    int i; // índice ou posição
 	    
@@ -19,7 +19,7 @@ public class vetor {
 	    	v[i] = sc.nextInt();
 	    }
 	    
-	    // Processamento: somar todos os valores, definir o maior e o menor valor
+	 // Processamento: somar todos os valores, definir o maior e o menor valor
 	    int soma = 0;
 	    int menor = v[0]; // v[0] = 1o. valor armazenador no vetor "v"
 	    int maior = v[0];
@@ -48,7 +48,11 @@ public class vetor {
 	    	}
 	    }
 	    System.out.printf("\nSoma = %d\n", soma);
-	    sc.close() v  ;
+
+
+		
+
+	    sc.close();
 	}
 		
 }
