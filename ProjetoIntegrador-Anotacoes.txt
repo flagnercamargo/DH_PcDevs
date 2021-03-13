@@ -1,0 +1,26 @@
+
+1a reunião - 12/03/2021 às 20:00
+
+Passo1 - doc com as ideias, esse que a gente já fez
+	Levantamento de requisitos funcionais e não funcionais
+
+Passo2 - protótipo visual: FIGMA
+
+Desenhar as telas e fazer as conexões entre elas.
+
+modelos de componentes do Bootstrap no Figma pra copiar e colar:
+https://www.figma.com/file/ZJcGFIeKGJQFviLsZBjxYk/Bootstrap-v4-uikit-Copy?node-id=0%3A749 
+
+Passo 3 - 
+Criar repositório no Git e compartilhar com Rafael e Ian
+
+1- criar documento falando do projeto
+2- cria desenhos das telas do projeto
+3- cria resitório do GitHub e compartilha com os colegas
+4- cria as telas iniciais do projeto no Angular com referencia do passo 2
+
+criar projeto no git e adicionar as dependências que vcs irão usar no angular 
+
+Se sobrar tempo (prox reunião dia 26/03) já pode começar algumas telas no Angular.
+
+
