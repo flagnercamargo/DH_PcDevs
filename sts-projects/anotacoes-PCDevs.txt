@@ -150,4 +150,93 @@ public class Produto {
 
 ==========================================================
 
+Aula de 13-03-2021
+
+Classes e métodos abstratos
+
+Uma classe ou método é abstrato qd não implementa em si mesmo, mas só a partir de classes filhas através de @override
+
+Projeto de exemplo => https://github.com/acenelio/interfaces1-java
+
+Mudanças: adicionar classe com taxas Argentinas repetindo estrutura da classe Bazil
+
+
+
+
+package application;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
+
+import model.entities.CarRental;
+import model.entities.Vehicle;
+import model.services.ArgentinaTaxService;
+import model.services.BrazilTaxService;
+import model.services.RentalService;
+import model.services.TaxService;
+
+public class Program {
+
+	public static void main(String[] args) throws ParseException {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+		
+		System.out.println("Digite as informações do aluguel");
+		System.out.print("Modelo do Carro: ");
+		String carModel = sc.nextLine();
+		System.out.print("Data de retirada (dd/MM/yyyy HH:mm): ");
+		Date start = sdf.parse(sc.nextLine());
+		System.out.print("Data de Retorno (dd/MM/yyyy HH:mm): ");
+		Date finish = sdf.parse(sc.nextLine());
+		
+		Vehicle veiculo = new Vehicle(carModel);
+		CarRental cr = new CarRental(start, finish, veiculo);
+
+		System.out.print("Digite o preço da hora: ");
+		double pricePerHour = sc.nextDouble();
+		System.out.print("Digite o preço do dia: ");
+		double pricePerDay = sc.nextDouble();
+				
+		TaxService tax = null;
+		int nacionalidade;
+		
+		do {
+			System.out.println("1 - Brasil ");
+			System.out.println("2 - Argentina ");
+			nacionalidade = sc.nextInt();
+				switch(nacionalidade) {
+					case 1:  tax = new BrazilTaxService();
+							break;
+					case 2:  tax = new ArgentinaTaxService();
+							break;
+					default: System.out.println("Opção inválida. Escolha novamente!");
+							break;
+			}
+			System.out.println(nacionalidade);
+		}while(nacionalidade != 1 && nacionalidade != 2);
+					
+		RentalService rentalService = new RentalService(pricePerDay, pricePerHour, tax);
+		
+		rentalService.processInvoice(cr);
+
+		System.out.println("INVOICE:");
+		System.out.println("Basic payment: " + String.format("%.2f", cr.getInvoice().getBasicPayment()));
+		System.out.println("Tax: " + String.format("%.2f", cr.getInvoice().getTax()));
+		System.out.println("Total payment: " + String.format("%.2f", cr.getInvoice().getTotalPayment()));
+		
+		sc.close();
+	}
+}
+
+
+==========================================================
+
+
+
+
 

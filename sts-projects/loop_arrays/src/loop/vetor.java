@@ -13,7 +13,7 @@ public class vetor {
 	    int v[] = new int[n]; // declaração do vetor "v"
 	    int i; // índice ou posição
 	    
-	    // Entrada de Dados
+	 // Entrada de Dados
 	    for (i=0; i<n; i++) {
 	    	System.out.printf("Informe %do. valor de %d: ", (i+1), n);
 	    	v[i] = sc.nextInt();
@@ -48,11 +48,7 @@ public class vetor {
 	    	}
 	    }
 	    System.out.printf("\nSoma = %d\n", soma);
-
-
 		
-
-	    sc.close();
+		sc.close();
 	}
-		
 }
