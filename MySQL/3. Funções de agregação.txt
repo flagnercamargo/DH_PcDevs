@@ -1,0 +1,46 @@
+Funções de agregação
+
+As funções de agregação realizam cálculos sobre um conjunto de dados e retornam um único resultado. Exceto COUNT, as funções de agregação ignoram valores NULL.
+
+COUNT
+Retornará a quantidade de linhas/registros que atendem aos critérios.
+
+
+Devolverá a quantidade de registros da tabela “filmes”.
+
+
+Devolverá a quantidade de filmes da tabela “filmes” com o genero_id 3 em uma coluna chamada “total”.
+SELECT COUNT(*) FROM filmes;
+SQL
+SELECT COUNT(id) AS total FROM filmes WHERE genero_id = 3;
+SQL
+
+AVG, SUM
+AVG (average) retornará a média de uma coluna com valores numéricos.  
+
+SUM retornará a soma de uma coluna com valores numéricos.  
+
+
+Retornará a média do rating  dos filmes da tabela “filmes”.
+
+
+Retornará a soma das durações dos filmes da tabela “filmes”.
+SELECT AVG(rating) FROM filmes;
+SQL
+SELECT SUM(length) FROM filmes;
+SQL
+
+MIN, MAX
+MIN retornará o valor mínimo de uma coluna com valores numéricos.
+MAX retornará o valor máximo de uma coluna.
+
+
+Retornará o rating do filme que foi menos ranqueado. 
+
+
+Retornará o rating do filme que foi melhor ranqueado. 
+SELECT MIN(rating) FROM filmes;
+SQL
+SELECT MAX(rating) FROM filmes;
+SQL
+

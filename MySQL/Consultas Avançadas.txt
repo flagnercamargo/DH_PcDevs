@@ -1,0 +1,55 @@
+Consultas Avançadas
+
+
+Group BY
+
+
+Pensando  no cenário em que o líder técnico de sua equipe chega para fazer solicitações que você tem que resolver. Desta vez, ele pede um relatório do número de carros agrupados por marca. Em outras palavras, você quer ver quantos carros estão em estoque da Chevrolet, Fiat, Renault e marcas semelhantes.
+
+
+E antes de começar a soltar sua cabeça, deixe-nos dizer que a solução (como é comum no MySQL) é mais simples do que você pensa.
+
+
+Bem, com a diretiva Group by você poderá agrupar os registros da tabela resultante de uma consulta por uma ou mais colunas conforme necessário.
+
+
+Portanto, vamos ver toda a magia que o Group by traz consigo para que, desta forma, o seu líder técnico continue a ver os grandes potenciais que estão em você. 
+
+
+
+
+JOINS
+
+
+Imagine o seguinte cenário: você tem uma tabela que armazena os dados de uma pessoa, e sabe que essa tabela, por sua vez, está ligada à outra tabela que armazena as imagens uma pessoa posta. Mas, nesta última tabela, o único dado que se tem para identificar a pessoa dona dessa imagem é o ID dela, ou seja, o ID que corresponde a essa pessoa na tabela de pessoas.
+Sendo este é o caso: como poderíamos, então, trazer em uma só consulta as imagens que pertencem ao ID 5, por exemplo? Em outras palavras, como é possível trazer todas as imagens que pertencem a uma pessoa, se essa informação está presente em tabela?
+Pois bem, para alcançar isto, o MySQL fornece uma ferramenta chamada de JOINS. Os joins (ou junções), tal qual seu nome indica, não são nada mais que uniões entre tabelas diferentes, que têm algum tipo de relação entre si.
+
+
+
+
+
+
+Distinct
+
+
+Imagine-se no seguinte cenário.
+O seu Team Leader vem e pede um relatório que traga todos os produtos da base de dados, mas apenas aqueles que não estão duplicados, ou seja, deseja-se que nesse relatório sejam visualizados apenas os valores únicos. Pois bem, sabe-se que nessa tabela, para uma determinada coluna podem haver valores duplicados.
+Antes que você entre em pânico e saia do escritório, diga-nos que a solução para essa solicitação foi resolvida de uma maneira bastante simples, já que a cláusula DISTINCT do MySQL permitirá que você execute essa tarefa.
+Funções de Agregação 
+Dentro da grande quantidade de funcionalidades que o MySQL traz consigo, as funções de agregação são ferramentas que nos permitem fazer com que o resultado das consultas mostrem informações como quantidade de registros, média, o total de uma determinada informação armazenada em uma coluna, entre outras coisas. 
+
+
+As funções de agregação mais comuns, e a que veremos nesta aula, são:
+
+
+* COUNT
+* AVG, SUM
+* MIN, MAX
+
+
+Having
+Muitas vezes, quando estamos implementando as funções de agregação, queremos filtrar os resultados obtidos e com certeza a coisa mais rápida que pode vir à mente é usar um WHERE. E embora esse conceito não seja nada ruim, as funções de agregação não são muito amigáveis ​​ao uso de WHERE.
+
+
+É por esta razão que a diretiva HAVING cumpre a mesma função, mas Veja bem! Ele só pode ser usado em conjunto com funções de agregação para filtrar dados agregados. É importante levar isso em consideração, pois para qualquer outro cenário, o WHERE será a ferramenta que teremos que utilizar.

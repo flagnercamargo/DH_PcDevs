@@ -1,0 +1,32 @@
+DISTINCT
+
+Como funciona
+A cláusula DISTINCT retorna valores únicos. Em uma tabela, uma coluna pode conter valores duplicados e às vezes apenas é necessária uma lista com os diferentes valores, ou seja, aqueles que se repetem não aparecem. 
+SELECT DISTINCT coluna_1, coluna_2
+FROM nome_tabla;
+SQL
+
+Distinct exemplo
+A partir de uma tabela de usuários, se executarmos a consulta:
+
+
+SELECT pais FROM usuarios;
+SQL
+SELECT DISTINCT pais FROM usuarios;
+SQL
+Obteríamos:
+'Perú, Perú, Argentina, França, Argentina'
+
+Existem cenários em que precisaremos obter apenas os valores distintos que aparecem em uma coluna. Adicionando o DISTINCT na consulta: 
+Obteríamos:
+'Perú, Argentina, França'
+
+SELECT DISTINCT actors.first_name, actors.last_name
+FROM actors
+INNER JOIN actor_movie ON actors.id = actor_movie.actor_id
+INNER JOIN movies ON movies.id = actor_movie.movie_id
+WHERE movies.title LIKE '%Harry Potter%';
+{código}
+Neste exemplo, vemos uma query que pede pelos atores que atuaram em qualquer filme de Harry Potter.
+Se não escrevêssemos ao DISTINCT os atores que participaram de mais de um filme, eles apareceriam repetidos no resultado. 
+

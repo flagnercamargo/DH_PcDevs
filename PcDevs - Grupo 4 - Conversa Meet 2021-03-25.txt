@@ -1,0 +1,418 @@
+Você
+16:57
+opa, blz?
+Eduardo Goulart Lüders
+16:57
+oio , tudo certo
+Você
+16:57
+vamos esperar para ver se mais alguém entra...
+Eduardo Goulart Lüders
+16:59
+sobre forma de pagamento = apagar texto e só "Mercado Pago"  para minimizar programação 
+Você
+16:59
+gostei das mudanças que você fez no Fluxo de Telas.
+Eduardo Goulart Lüders
+16:59
+pessoas usam pagamento direto mercado pago pra pagar e devolução pra saldar 
+parece carteira virtual
+Você
+16:59
+essas coisas você pode ir corrigindo direto no Esboço
+Eduardo Goulart Lüders
+17:00
+obrigado
+Olá Eduardo 
+nós estamos aqui pra aproveitamos corrigir algo e eu ajudo correção rápida 
+Eduardo Goulart Lüders
+17:01
+ou alguem quiser ajudar tb
+to chamando zap kelly vir
+Eduardo Goulart Lüders
+17:02
+Fluxo de tela finalizado , azul = perfil ,  vermelho = transação de dinheiro ,  verde = projeto .  cor preto é decisão 
+igual IF
+kelly vindo 
+vou chamar renan
+Você
+17:04
+estou explicando pro Paim sobre minha deficiência.
+Paim falou que sabe um pouco de linguagem de sinais e pode tentar se comunicar com vc.
+Eduardo Goulart Lüders
+17:05
+rsrsrs , se nao lembrar e ensinamos sinais 
+ajudamos lembrar
+Eduardo Goulart Lüders
+17:06
+renan está vimdo
+Você
+17:06
+vou explicar pro Paim a ideia do nosso projeto
+Eduardo Goulart Lüders
+17:06
+Eduardo, preciso vc confirme email de FIGMA pra olhar esboço de prototipo do site 
+depois faz ,  escutar flagner 
+Eduardo Goulart Lüders
+17:08
+FIGMA não tem esboço e vi em branco 
+pode ser renan fez outro perfil
+esperamos ele voltar pra perguntar 
+Você
+17:09
+https://docs.google.com/presentation/d/1IJ0LlYo2NStURJpjq3zkw4kpGhmv7JqGD4cYD1sEso8/edit#slide=id.gbffa5d7add_0_20
+Eduardo Goulart Lüders
+17:09
+achei
+Você
+17:12
+https://www.figma.com/files/team/952353116184040881/PcDevs---Grupo-4
+https://trello.com/b/dN7aDjxC/pcdevs-grupo-4
+Você
+17:13
+no Figma não precisa ter nada além dos rascunhos das telas.
+Eduardo Goulart Lüders
+17:15
+qualquer app desenho pra salvar imagem e colar no slide esboço 
+Você
+17:16
+https://drive.google.com/drive/u/0/folders/1SaaqMJ8jUNR7kYeoyShke-tY4d2__iqV
+Isso, e esses desenhos a gente precisa colocar lá no Trello dentro da Tarefa de criar telas
+Eduardo Goulart Lüders
+17:17
+e depois montamos com calma bem bonito 
+Você
+17:19
+Eduardo e Kelly, vocês conseguem se comunicar com Paim pelos sinais na câmera ?
+Eduardo Goulart Lüders
+17:19
+renan está travando
+eduardo travando
+confundi nome renan e eduardo rsrsrsrs
+nao conseguimos comunicar com pain pela camera travada
+Você
+17:21
+Eduardo, o que falta na parte do Git?
+Kelly, você vai ajudar com o quê?
+Eduardo Goulart Lüders
+17:21
+Kelly disse q já arrumou descrição de zap = link de figma , trello , github 
+eu ja acabei git e só falta enviar 
+Você
+17:23
+então envie.
+david rodrigues dos santos
+17:25
+Ainda nao fiz porque nao da tempo ir fazer muito um pouco, porque eu tenho muito trabalho e faculdade.
+Hoje to começando ajudar em grupo aqui.
+Eu to ajustei com Edu um pouco! 
+Você
+17:26
+Paim está tentando contato com Renan para ver quais rascunhos de telas ainda precisam ser feitos.
+Ok Kelly, blz.
+Você
+17:30
+Eduardo, faça commit do que você já terminou no git.
+Você
+17:32
+Paim está conversando com Renan para ver o lance dos rascunhos das telas
+Eduardo Goulart Lüders
+17:35
+Renan , se precisar ajuda melhoria desenho pode me contar e fiz curso UX UI ,  veja ZAP eu fiz melhorias para você
+renan luz
+17:35
+blz
+Eduardo Goulart Lüders
+17:35
+mas FOOTER não sei o q precisamos fazer 
+renan luz
+17:36
+falta os menus
+Eduardo Goulart Lüders
+17:36
+pode falar e eu faço 
+renan luz
+17:38
+as cores?
+Eduardo Goulart Lüders
+17:38
+começamos sem cores  q é prototipo pra mostrar ian 
+igual esqueleto
+e depois pra frente colorido como oficial
+Eduardo Goulart Lüders
+17:40
+kelly falou q sou bom desenhar e é mais rapido . mas faltou cores
+weu falei cores podemos deixar depois , nossa tarefa é esqueleto igual prototiipo sem cores
+conforme descrição de numero item 2
+Kelly perguntou = o que podemos fazer Footer ???
+Eduardo Goulart Lüders
+17:42
+Pode ser colocar botoes  de rede social para compartilhar pagina de projeto ,  explicativo(texto) q site de doação funciona somente territorio brasil
+ela disse e eu traduzi libras por texto
+Você
+17:43
+pode ser sim
+então coloquem esse FOOTER no rascunho no Figma
+Eduardo Goulart Lüders
+17:44
+eu fiz desenho ´ é http://draw.io  pq é mais rapido 
+renan luz
+17:44
+tudo certo p amanhã?
+Eduardo Goulart Lüders
+17:44
+e depois salvo JPG 
+precisa desenhar todos ou não de item 3  ?  só descritivo ?
+item 2 - corrigido
+Você
+17:45
+Legal, então pegue esse teu draw.io e faça print e coloque no Trello dentro da Atividade 2
+Eduardo Goulart Lüders
+17:45
+Tela1: Tela inicial (home): Carrossel e Cards de Projetos, Card de Login (Header) , Footer
+
+
+Tela2: Tela de login
+Tela3: Tela Detalhes do Projeto Social
+Tela4: Tela do usuário "dono de projetos" (Cadastrador): com lista de seus projetos e dados de arrecadações.
+Tela5: Tela do usuário "doador" com lista de projetos que já fez doação e outros detalhes que nós combinarmos.
+Tela6: Cadastrar Novo Projeto
+Tela7: Formas de Pagamento (Não precisa, clica e vai direto pra MercadoPago)
+Tela8: Agradecimento
+isto pra desenhar tudo ?
+e colocar só trello ?
+Você
+17:46
+O que é item 3 ?
+Eduardo Goulart Lüders
+17:46
+errei ,  item 3 nao e corrigi item 2 
+titulo 2 - Fazer rascunho/desenho das Telas. Sugestão FIGMA
+tela 7  ,  nao precisamos fazer , porque pagar forma de pagamento é direto mercadopago
+Você
+17:47
+Os rascunhos das telas sim, era para o Renan desenhar, mas ainda não fez.
+Eduardo Goulart Lüders
+17:47
+se ele ainda nao fez , podemos dividir 
+nao importa desenhar feio ou bonito e eu ajudo melhoria 
+pode desenhar papel e caneta e eu converto tela
+Você
+17:48
+exatamente
+desenhar como conseguir, faz print e coloca no Trello
+Eduardo Goulart Lüders
+17:49
+certo
+kelly falou 
+pagina home ,  menu ter home login e cadastro
+sobre header 
+Eduardo Goulart Lüders
+17:50
+outras paginas  nao ter login e cadastro e  só circulo como fosse usuario logado , clicar circulo avatar e aparece menu pra selecionar o que precisa = historico ,  pagamento ,  criar projeto , etc
+tipo submenu
+Você
+17:51
+sim, pode ser.... mas cadê o rascunho disso?
+Eduardo Goulart Lüders
+17:51
+ela falou ideia e eu irei fazer pra ajudar renan
+ela complementou ideias 
+Você
+17:51
+ótimo
+é assim mesmo, porquê aí temos o que mostrar pro Ian amanhã
+Eduardo Goulart Lüders
+17:52
+renan , se vc nao conseguir figma , pode usar programa PAINT (proprio windows) ou papel e caneta , passe pra mim e eu farei pra terminar
+eu estou fazendo  footer , header e pagina inicial 
+depois farei tela login e cadastro usuario
+conforme campos  q tem escrito slide
+Eduardo Goulart Lüders
+17:54
+Kelly falou =  vc está fazendo figma ?  e eu falei q nao e estou fazendo draw.io é mais rapido do q figma , pq tem clicar e pronto pra fazer sem mexer muitas coisas ,  só direto e rapido 
+se flagner , renan ou eduardo paim tiver alguma duvidas ou gostaria alteração , podem falar comigo e altero 
+Você
+17:55
+vocês acham que precisamos discutir mais alguma coisa hoje?
+Eduardo Goulart Lüders
+17:55
+ou renan tem salvo figma e pode alterar 
+renan luz
+17:55
+depois vou ver o draw.io tambem
+Você
+17:56
+Eduardo, não se esqueça de fazer commit do que você já fez no git...
+Eduardo Goulart Lüders
+17:56
+tenho duvida é slide  de item 1
+fluxo = ok 100%
+modulos = 80% 
+falta explicativo de fluxo e porque fluxo precisa , etc 
+Você
+17:57
+sim, essa parte de explicações e documentação eu vou fazendo conforme o projeto vai amadurecendo.
+Eduardo Goulart Lüders
+17:58
+blz 
+Você
+17:58
+sim, faltam explicações no esboço
+david rodrigues dos santos
+17:58
+desculpa, caiu o internet
+Eduardo Goulart Lüders
+17:58
+se não acabar e pode fazer mais pra frente documentação con calma ,  docuimentalçao não tem fim e ela vai crescendo ,  vc falou amadurecendo , verdade 
+mas desenhos é bom terminar , porque ian vai ler e explicar o que iremos fazer Angular , rotas e modulos 
+Você
+17:59
+exato, vai crescendo = amadurecendo
+Eduardo Goulart Lüders
+17:59
+Kelly é bom front-end e vai ajudar e explicar conosco  e eu entendi pouco , mas vou aprender e ajudar dividir 
+interpretei libras pra kelly o q escrevi
+Você
+18:00
+por isso é importante a parte de GIT estar pronta, porquê se Ian já direcionar pra começarmos Anglar, já podemos dividir tarefas de programação frontend
+Eduardo Goulart Lüders
+18:00
+exatamente 
+e depois ian ajudará nós como fazemos merge ou algo o que fazemos angular 
+merge =  juntar desenvolvimento sem substituir arquivo
+misturar codigos o q 2 ou mais desenvolvedores fizeram
+Eduardo Goulart Lüders
+18:01
+branch será divididos de seus nomes e depois soltar merge para branch master 
+Você
+18:02
+se a sua parte do git estiver pronta, a preocupação com Merge fica pequena, pq nós vamos começar do ponto onde vc parou
+Eduardo Goulart Lüders
+18:02
+merge = nnão precisamos esperar uma pessoa terminar ,  já podemos fazer todos mesmo tempo 
+Você
+18:02
+é muito difícil dar problema com Merga, se as tarefas estiverem bem divididas, cada um vai escrever uma tela, ou uma classe...
+Eduardo Goulart Lüders
+18:03
+cada um desenvolve modulos e depois textar juntos 
+exemplo
+eu faço  header ,  kelly faz  pagina home ,  flagner   pagina cadastro , etc
+isto é modulo 
+Você
+18:03
+Merge só dá problema se duas pessoas estiverem escrevendo no mesmo arquivo...
+Eduardo Goulart Lüders
+18:04
+e depois merge juntar como LEGO
+2 pessoas escrevem e vai misturar mesmo arquivo
+por exemplo  eu fiz menu   home e login ,  outrap essoa fez  campo de busca 
+vai misturar os dois
+mas bom vamos deixar merge depois pra conversamos ian 
+Você
+18:05
+por isso que eu falei que não precisa se preocupar com Merge
+Eduardo Goulart Lüders
+18:06
+sem merge =  cada um vai desenvolver e vamos ficar esperando outro fazer  como fosse fila 
+com merge = todos desenvolvem juntos mesmo tempo e salvar ,  projeto vai ficar somando e nao substituir 
+Você
+18:06
+Vamos nos concentrar nos rascunhos das telas
+Eduardo Goulart Lüders
+18:06
+merge depois 
+isso foco desenho 
+Você
+18:06
+show... agora vou comer alguma coisa antes da aula
+renan luz
+18:07
+blz
+Eduardo Goulart Lüders
+18:07
+vamos precisar suas ajudas de ideias de desenho o q precisa ter  =  campo , janela , dropbox, etc pra falar  como texto-descritivo ,  eu e renan desenhamos 
+por exemplo : Tela5: Tela do usuário "doador" com lista de projetos que já fez doação e outros detalhes que nós combinarmos.
+como é  pagina ?
+renan luz
+18:08
+não faço ideia
+david rodrigues dos santos
+18:08
+ja volta, vou fazer da comida! Depois vou entrar no meet
+Você
+18:08
+tentem imaginar em cada tela, quais campo ssão importantes...
+Eduardo Goulart Lüders
+18:08
+nao preocupe , vou fazer ideia isto  de rascunho qualquer e depois me confirma como foi 
+renan luz
+18:09
+ok, obrigado
+Eduardo Goulart Lüders
+18:09
+se todos tem algo ideia de visual   pagina conforme item 2 ,  aproveitem me falar 
+pra eu desenhar 
+kelly vai sair pra fazer comida 
+Você
+18:10
+ok
+renan luz
+18:10
+mais alguma coisa? ou posso sair
+Eduardo Goulart Lüders
+18:10
+vou tentar fazer copia imagem igual site catarse , vakinha 
+e vcs tem algo ideia , pode passar fotos o q é boa ideia pra eu incluir desenho
+Você
+18:10
+pode ser um começo
+Eduardo Goulart Lüders
+18:10
+vai precisar  assinatura ?????
+tipo doação mensal assinatura ?
+se sim e vai aumentar mais fluxo 
+e mais desenho
+Você
+18:11
+Acho que "assinatura" pode er um módulo pra pensarmos depois... vamos fazer o básico antes
+Eduardo Goulart Lüders
+18:11
+ok , vou fazer desenho como está no item 2 tem lista de checklist 
+Você
+18:12
+aumentar o Fluxo não é boa ideia, não fizemos nem o básico ainda.... Metodologia Ágil, pequenas entregas, MVP
+Eduardo Goulart Lüders
+18:13
+melhor deixamos como está fluxo q corrigi  e nao adicionaremos assinatura 
+se incluir assinatura e precisa mudar fluxo por causa funcionamento de assinatura mensal
+tipo doação por mes 
+Você
+18:13
+sim
+Eduardo Goulart Lüders
+18:14
+o q acham ideia assinatura ?
+vamos incluir em breve ?
+Você
+18:14
+a ideá da Assinatura é boa, mas vou repetir, vamos fazer o básico, depois pensamos em Assinatura
+Eduardo Goulart Lüders
+18:15
+certo , vamos deixar como está pra  mostrar ian dia 26 e depois veremos para alterar algumas coisas
+Você
+18:15
+faça o commit do que você ja'fez no git...
+Eduardo Goulart Lüders
+18:15
+vou fazer .
+e avisarei 
+Você
+18:15
+agora vou comer alguma coisa... depois vamos pra aula. Até logo, e obrigado a todos
+Eduardo Goulart Lüders
+18:15
+só isso e não tem mais alguma coisa 
+qualquer coisa , falo zap
+
